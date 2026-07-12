@@ -29,13 +29,13 @@
             background-color: var(--bg-main);
             color: var(--text-main);
             overflow-x: hidden;
-            padding-bottom: 60px;
+            padding-bottom: 30px;
         }
 
         header {
             background-color: var(--bg-panel);
             border-bottom: 1px solid var(--border);
-            padding: 12px 16px;
+            padding: 10px 12px;
             position: sticky;
             top: 0;
             z-index: 100;
@@ -52,11 +52,10 @@
             background-color: var(--bg-input);
             border: 1px solid var(--border);
             border-radius: 8px;
-            padding: 10px 12px 10px 36px;
+            padding: 8px 12px 8px 32px;
             color: var(--blue-glow);
-            font-size: 14px;
+            font-size: 13px;
             outline: none;
-            transition: all 0.3s ease;
         }
 
         .search-input:focus {
@@ -66,17 +65,17 @@
 
         .search-icon {
             position: absolute;
-            left: 12px;
-            top: 11px;
-            font-size: 14px;
+            left: 10px;
+            top: 9px;
+            font-size: 13px;
             opacity: 0.5;
         }
 
         .container {
             display: flex;
             flex-direction: column;
-            padding: 16px;
-            gap: 16px;
+            padding: 8px;
+            gap: 10px;
         }
 
         .module-selector-wrapper {
@@ -88,51 +87,52 @@
             background-color: var(--bg-panel);
             color: var(--text-main);
             border: 1px solid var(--blue-electric);
-            padding: 12px;
+            padding: 10px;
             border-radius: 8px;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: bold;
             outline: none;
-            box-shadow: 0 0 10px rgba(0, 82, 255, 0.2);
+            box-shadow: 0 0 10px rgba(0, 82, 255, 0.1);
         }
 
         .calc-card {
             background-color: var(--bg-panel);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 16px;
+            border-radius: 10px;
+            padding: 12px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.4);
         }
 
         .card-header {
             border-bottom: 1px solid var(--border);
-            padding-bottom: 8px;
-            margin-bottom: 16px;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
         }
 
         .card-title {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
             color: #FFF;
         }
 
         .card-desc {
-            font-size: 12px;
+            font-size: 11px;
             color: var(--text-muted);
-            margin-top: 4px;
+            margin-top: 2px;
+            line-height: 1.3;
         }
 
         .input-group {
-            margin-bottom: 14px;
+            margin-bottom: 10px;
         }
 
         .input-label {
             display: block;
-            font-size: 11px;
+            font-size: 10px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: var(--text-muted);
-            margin-bottom: 6px;
+            margin-bottom: 4px;
         }
 
         .input-wrapper {
@@ -143,12 +143,11 @@
             width: 100%;
             background-color: var(--bg-input);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 45px 10px 12px;
+            border-radius: 6px;
+            padding: 8px 40px 8px 10px;
             color: #FFF;
-            font-size: 14px;
+            font-size: 13px;
             outline: none;
-            transition: border-color 0.2s;
         }
 
         .input-field:focus {
@@ -157,9 +156,9 @@
 
         .input-unit {
             position: absolute;
-            right: 12px;
-            top: 10px;
-            font-size: 12px;
+            right: 10px;
+            top: 8px;
+            font-size: 11px;
             color: var(--text-muted);
             font-weight: bold;
         }
@@ -168,35 +167,32 @@
             width: 100%;
             background-color: var(--blue-electric);
             color: white;
-            border: 1px solid rgba(0, 229, 255, 0.3);
-            padding: 14px;
-            border-radius: 8px;
-            font-size: 14px;
+            border: 1px solid rgba(0, 229, 255, 0.2);
+            padding: 11px;
+            border-radius: 6px;
+            font-size: 13px;
             font-weight: bold;
             cursor: pointer;
-            transition: all 0.3s;
-            margin-top: 8px;
-            box-shadow: 0 0 8px rgba(0, 82, 255, 0.3);
+            box-shadow: 0 0 8px rgba(0, 82, 255, 0.2);
         }
 
         .btn-action:active {
-            box-shadow: 0 0 20px rgba(0, 229, 255, 0.6);
-            transform: scale(0.98);
+            transform: scale(0.99);
         }
 
         .results-box {
-            margin-top: 20px;
+            margin-top: 12px;
             background: linear-gradient(135deg, rgba(16,16,22,1) 0%, rgba(8,8,12,1) 100%);
             border: 1px solid rgba(255,255,255,0.03);
-            border-radius: 8px;
-            padding: 12px;
+            border-radius: 6px;
+            padding: 10px;
         }
 
         .result-row {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 0;
+            padding: 8px 0;
             border-bottom: 1px solid rgba(255,255,255,0.02);
         }
 
@@ -205,12 +201,12 @@
         }
 
         .result-label {
-            font-size: 12px;
+            font-size: 11px;
             color: var(--text-muted);
         }
 
         .result-value {
-            font-size: 14px;
+            font-size: 12px;
             font-weight: bold;
             color: var(--blue-glow);
         }
@@ -218,34 +214,85 @@
         .error-message {
             color: var(--red-alert);
             font-weight: bold;
-            font-size: 14px;
+            font-size: 12px;
             text-align: center;
-            padding: 10px 0;
+            padding: 6px 0;
         }
 
         .formula-box {
-            margin-top: 12px;
-            font-size: 10px;
+            margin-top: 10px;
+            font-size: 9px;
             color: var(--text-muted);
             background-color: #050507;
-            padding: 8px;
+            padding: 6px;
             border-radius: 4px;
             border: 1px solid var(--border);
             font-family: monospace;
+            word-break: break-all;
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 600px) {
             .container {
                 flex-direction: row;
                 max-width: 1200px;
                 margin: 0 auto;
+                padding: 16px;
+                gap: 16px;
             }
             .module-selector-wrapper {
-                width: 300px;
+                width: 260px;
                 flex-shrink: 0;
             }
             .calc-card {
                 flex-grow: 1;
+                padding: 20px;
+                border-radius: 12px;
+            }
+            header {
+                padding: 14px 24px;
+            }
+            .search-input {
+                font-size: 14px;
+                padding: 10px 12px 10px 38px;
+            }
+            .search-icon {
+                left: 14px;
+                top: 11px;
+                font-size: 14px;
+            }
+            select.module-select {
+                font-size: 14px;
+                padding: 12px;
+            }
+            .card-title {
+                font-size: 17px;
+            }
+            .card-desc {
+                font-size: 12px;
+            }
+            .input-label {
+                font-size: 11px;
+            }
+            .input-field {
+                font-size: 14px;
+                padding: 10px 45px 10px 12px;
+            }
+            .btn-action {
+                font-size: 14px;
+                padding: 13px;
+            }
+            .result-label {
+                font-size: 13px;
+            }
+            .result-value {
+                font-size: 14px;
+            }
+            .formula-box {
+                font-size: 11px;
+                padding: 8px;
+            }
+            .error-message {
+                font-size: 14px;
             }
         }
     </style>
@@ -256,7 +303,7 @@
         <form id="searchForm" onsubmit="handleSearch(event)">
             <div class="search-container">
                 <span class="search-icon">🔍</span>
-                <input type="text" id="searchInput" class="search-input" placeholder="Tapez un calcul (ex: erreur, cotes fixes, impossible...)">
+                <input type="text" id="searchInput" class="search-input" placeholder="Tapez un calcul (ex: resine, charge, erreur...)">
             </div>
         </form>
     </header>
@@ -274,6 +321,8 @@
                 <option value="navigation">🧭 7. Navigation & Carburant</option>
                 <option value="dimensionnement">📏 8. Ratios & Pré-dimensionnement</option>
                 <option value="dimensions_fixes">📐 9. Cotes Navales Fixes (Longueur Unique)</option>
+                <option value="stratification">🧪 10. Stratification (Fibre & Résine)</option>
+                <option value="capacite_portante">⚓ 11. Capacité de Charge Maximale</option>
             </select>
         </div>
 
@@ -308,6 +357,7 @@
                 ],
                 calc: (i) => {
                     if (i.long_flot <= 0 || i.larg_max <= 0 || i.vol_coque <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.long_flot < 2 || i.larg_max < 0.5) return { error: "❌ Pas possible : Le navire est trop petit !" };
                     const depl = i.vol_coque * 1.025;
                     const sm = 2.5 * Math.sqrt(depl * i.long_flot);
                     const te = depl / (i.long_flot * i.larg_max * 0.65 * 1.025);
@@ -329,7 +379,7 @@
                     { id: "bm", name: "Rayon métacentrique transversal (BM)", unit: "m", def: 2.4 }
                 ],
                 calc: (i) => {
-                    if (i.larg_max <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.larg_max <= 0 || i.kg <= 0 || i.kb <= 0 || i.bm <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
                     const gm = i.kb + i.bm - i.kg;
                     let alerte = "Sécurisé (Bon bras de levier)";
                     if (gm < 0.15) alerte = "CRITIQUE : Risque de chavirement !";
@@ -368,7 +418,7 @@
                     { id: "nb_moteurs", name: "Nombre de moteurs installés", unit: "unités", def: 2 }
                 ],
                 calc: (i) => {
-                    if (i.poids_total <= 0 || i.vitesse_cible <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.poids_total <= 0 || i.vitesse_cible <= 0 || i.nb_moteurs <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
                     const kw = (Math.pow(i.poids_total, 2/3) * Math.pow(i.vitesse_cible, 3)) / 220;
                     const ch = kw * 1.341;
                     return {
@@ -387,7 +437,7 @@
                     { id: "vitesse_cible", name: "Vitesse de transit", unit: "nœuds", def: 16 }
                 ],
                 calc: (i) => {
-                    if (i.long_flot <= 0 || i.vitesse_cible <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.long_flot <= 0 || i.vitesse_cible <= 0 || i.poids_total <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
                     const fn = (i.vitesse_cible * 0.5144) / Math.sqrt(9.81 * i.long_flot);
                     return {
                         "Nombre de Froude (Fn)": fn.toFixed(3),
@@ -423,7 +473,7 @@
                     { id: "vitesse_moy", name: "Vitesse moyenne", unit: "nœuds", def: 12 }
                 ],
                 calc: (i) => {
-                    if (i.capa_carb <= 0 || i.conso_horaire <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.capa_carb <= 0 || i.conso_horaire <= 0 || i.vitesse_moy <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
                     const h = i.capa_carb / i.conso_horaire;
                     return {
                         "Autonomie en temps": h.toFixed(1) + " heures",
@@ -441,6 +491,7 @@
                 calc: (i) => {
                     if (i.long_souhaite <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
                     if (i.long_souhaite < 2) return { error: "❌ Pas possible : Le navire est trop petit !" };
+                    if (i.long_souhaite > 500) return { error: "❌ Pas possible : Hors des limites physiques navales !" };
                     const b = i.long_souhaite / 5.5;
                     const creux = i.long_souhaite / 12;
                     return {
@@ -452,24 +503,16 @@
             },
             dimensions_fixes: {
                 title: "Cotes Navales Fixes Exactes",
-                desc: "Entre uniquement la longueur du bateau. Le système génère automatiquement les cotes structurelles fixes et la flottaison précise avec gestion des erreurs physiques.",
+                desc: "Entre uniquement la longueur du bateau. Le système génère automatiquement les cotes structurelles fixes et la flottaison précise.",
                 formula: "Formules fixes : Largeur = L/5 | Hauteur Coque = L/11.5 | Sous l'eau = Hauteur × 0.60 | Au-dessus = Hauteur × 0.40",
                 inputs: [
                     { id: "long_unique", name: "Longueur unique du bateau", unit: "m", def: 35 }
                 ],
                 calc: (i) => {
                     const l = i.long_unique;
-                    
-                    // Barrières de contrôle demandées en rouge si invalide
-                    if (l <= 0) {
-                        return { error: "❌ Ce calcul n'est pas possible !" };
-                    }
-                    if (l < 2) {
-                        return { error: "❌ Pas possible : Le navire est trop petit !" };
-                    }
-                    if (l > 500) {
-                        return { error: "❌ Pas possible : Hors des limites physiques navales !" };
-                    }
+                    if (l <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (l < 2) return { error: "❌ Pas possible : Le navire est trop petit !" };
+                    if (l > 500) return { error: "❌ Pas possible : Hors des limites physiques navales !" };
                     
                     const largeurExacte = l / 5.0; 
                     const hauteurExacte = l / 11.5; 
@@ -481,6 +524,70 @@
                         "HAUTEUR DE COQUE EXACTE (Creux)": hauteurExacte.toFixed(2) + " m",
                         "MÈTRES SOUS L'EAU (Tirant d'eau fixe)": sousLeauExact.toFixed(2) + " m",
                         "MÈTRES AU-DESSUS DE L'EAU (Franc-bord fixe)": auDessusLeauExact.toFixed(2) + " m"
+                    };
+                }
+            },
+            stratification: {
+                title: "Stratification Coque (Fibre & Résine)",
+                desc: "Calcule le nombre de couches de tissu de verre et le poids de résine requis selon la surface développée de la coque.",
+                formula: "Surface approx = L × (B + 2H) × 0.85 | Épaisseur cible calculée selon contraintes structurelles composites.",
+                inputs: [
+                    { id: "strat_l", name: "Longueur de la coque", unit: "m", def: 8 },
+                    { id: "strat_b", name: "Largeur de la coque", unit: "m", def: 2.5 },
+                    { id: "strat_h", name: "Hauteur totale de la coque", unit: "m", def: 1.2 }
+                ],
+                calc: (i) => {
+                    if (i.strat_l <= 0 || i.strat_b <= 0 || i.strat_h <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.strat_l < 1 || i.strat_b < 0.3) return { error: "❌ Pas possible : Le navire est trop petit !" };
+                    if (i.strat_l > 500) return { error: "❌ Pas possible : Hors des limites physiques navales !" };
+
+                    // Estimation de la surface développée de la coque
+                    const surfaceDeveloppee = i.strat_l * (i.strat_b + (2 * i.strat_h)) * 0.85;
+                    
+                    // Détermination du nombre de couches selon la taille du bateau (Règle d'échantillonnage de base composite)
+                    let couchesMat = Math.max(2, Math.round(i.strat_l * 0.5));
+                    let couchesRoving = Math.max(2, Math.round(i.strat_l * 0.4));
+                    
+                    // Calcul de la masse totale de verre et de résine (Ratio verre/résine standard de 40/60 en drapage manuel)
+                    const poidsVerreM2 = (couchesMat * 450) + (couchesRoving * 600); // en grammes/m²
+                    const poidsTotalVerreKg = (poidsVerreM2 * surfaceDeveloppee) / 1000;
+                    const poidsTotalResineKg = poidsTotalVerreKg * 1.5; // Ratio classique résine
+
+                    return {
+                        "SURFACE DE COQUE ESTIMÉE": surfaceDeveloppee.toFixed(1) + " m²",
+                        "COUCHES DE MAT DE VERRE (450g/m²)": couchesMat + " couches",
+                        "COUCHES DE ROVING DE VERRE (600g/m²)": couchesRoving + " couches",
+                        "POIDS DE FIBRE DE VERRE REQUIS": poidsTotalVerreKg.toFixed(1) + " kg",
+                        "POIDS DE RÉSINE ADMISSIBLE (Épox./Poly.)": poidsTotalResineKg.toFixed(1) + " kg"
+                    };
+                }
+            },
+            capacite_portante: {
+                title: "Capacité de Charge Maximale (Portance)",
+                desc: "Détermine la masse maximale de charge (moteurs, équipements, équipage, fret) que le navire peut supporter en toute sécurité.",
+                formula: "Déplacement Max = L × B × H × Cb × 1.025 | Charge Utile = Déplacement Max - Poids Coque",
+                inputs: [
+                    { id: "port_l", name: "Longueur de la coque", unit: "m", def: 12 },
+                    { id: "port_b", name: "Largeur de la coque", unit: "m", def: 3.8 },
+                    { id: "port_h", name: "Hauteur totale de la coque", unit: "m", def: 1.8 }
+                ],
+                calc: (i) => {
+                    if (i.port_l <= 0 || i.port_b <= 0 || i.port_h <= 0) return { error: "❌ Ce calcul n'est pas possible !" };
+                    if (i.port_l < 2 || i.port_b < 0.5) return { error: "❌ Pas possible : Le navire est trop petit !" };
+                    if (i.port_l > 500) return { error: "❌ Pas possible : Hors des limites physiques navales !" };
+
+                    // Volume total de la boîte englobante de carène avec coefficient de bloc moyen (Cb = 0.55 pour coque classique)
+                    const volumeMaxTotal = i.port_l * i.port_b * i.port_h * 0.55;
+                    
+                    // Poussée d'Archimède brute maximale si enfoncé au maximum de sécurité (Franc-bord réglementaire de 40% préservé)
+                    const volumeSousEauSecurise = volumeMaxTotal * 0.60;
+                    const capacitePortanteTonne = volumeSousEauSecurise * 1.025; // Densité eau de mer
+                    const capacitePortanteKg = capacitePortanteTonne * 1000;
+
+                    return {
+                        "VOLUME DE CARÈNE MAX SÉCURISÉ": volumeSousEauSecurise.toFixed(1) + " m³",
+                        "CHARGE UTILE MAX (EN TONNES)": capacitePortanteTonne.toFixed(2) + " tonnes",
+                        "CHARGE UTILE MAX (EN KILOS)": Math.round(capacitePortanteKg).toLocaleString("fr-FR") + " kg"
                     };
                 }
             }
@@ -550,7 +657,11 @@
             event.preventDefault();
             const text = document.getElementById("searchInput").value.toLowerCase().trim();
 
-            if (text.includes("fixe") || text.includes("erreur") || text.includes("impossible") || text.includes("chiffre") || text.includes("petit")) {
+            if (text.includes("strat") || text.includes("resine") || text.includes("fibre") || text.includes("verre") || text.includes("couche")) {
+                switchModule("stratification");
+            } else if (text.includes("charge") || text.includes("porte") || text.includes("poids") || text.includes("tonne") || text.includes("kilo")) {
+                switchModule("capacite_portante");
+            } else if (text.includes("fixe") || text.includes("erreur") || text.includes("impossible") || text.includes("chiffre") || text.includes("petit")) {
                 switchModule("dimensions_fixes");
             } else if (text.includes("dimension") || text.includes("longueur") || text.includes("largeur")) {
                 switchModule("dimensionnement");
@@ -558,7 +669,7 @@
                 switchModule("coque");
             } else if (text.includes("stabilite") || text.includes("gm")) {
                 switchModule("stabilite");
-            } else if (text.includes("poids") || text.includes("flottabilité")) {
+            } else if (text.includes("flottabilité")) {
                 switchModule("flottabilite");
             } else if (text.includes("moteur") || text.includes("puissance")) {
                 switchModule("propulsion");
