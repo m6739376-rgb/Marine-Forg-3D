@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>NAVAL_SOLVER_PRO</title>
+    <title>AZURE FRONTIER DZ</title>
     <style>
         :root {
             --bg-main: #050505;
